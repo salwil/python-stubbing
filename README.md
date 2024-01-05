@@ -4,9 +4,9 @@ Test doubles are objects that stand in for other objects during a test. There ar
 ## Stubs
 * Mechanism for injecting data directly into the class .
 * Usually created using a mocking framework.
-* Does not provide validation of how the class uses the depandancy. 
+* Does not provide validation of how the class uses the dependency. 
 * Used when data is required by the class but the process 
-used to obtain it isn't relevent to what's being tested. 
+used to obtain it isn't relevant to what's being tested. 
 
 
 ## Mocks 
@@ -17,7 +17,7 @@ used to obtain it isn't relevent to what's being tested.
 actions on the dependency.
 
 ## Fake 
-* Simplified implementation of a dependancy.
+* Simplified implementation of a dependency.
 * Usually codded directly, without the use of a framework.
-* Does not provide direct validation of how the class usses the depandency.
-* Used when the class being tested requires specific logic in depeandency.
+* Does not provide direct validation of how the class usses the dependency.
+* Used when the class being tested requires specific logic in dependency.
